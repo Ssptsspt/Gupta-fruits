@@ -1,0 +1,1 @@
+mkdir -p pages components public/assets/products data locales styles lib
