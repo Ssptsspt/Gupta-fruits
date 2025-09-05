@@ -1,0 +1,10 @@
+cat > data/products.json <<'EOF'
+[
+  {"id":1,"name":"Apple","price":120,"unit":"kg","category":"Fruits","rating":4.5,"stock":50,"bulk":true,"image":"/assets/products/apple.jpg"},
+  {"id":2,"name":"Banana","price":60,"unit":"dozen","category":"Fruits","rating":4.3,"stock":100,"bulk":false,"image":"/assets/products/banana.jpg"},
+  {"id":3,"name":"Tomato","price":40,"unit":"kg","category":"Vegetables","rating":4.1,"stock":80,"bulk":true,"image":"/assets/products/tomato.jpg"},
+  {"id":4,"name":"Potato","price":30,"unit":"kg","category":"Vegetables","rating":4.2,"stock":200,"bulk":true,"image":"/assets/products/potato.jpg"},
+  {"id":5,"name":"Mango (seasonal)","price":180,"unit":"kg","category":"Fruits","rating":4.8,"stock":20,"bulk":false,"image":"/assets/products/mango.jpg"},
+  {"id":6,"name":"Spinach","price":28,"unit":"bunch","category":"Vegetables","rating":4.0,"stock":60,"bulk":false,"image":"/assets/products/spinach.jpg"}
+]
+EOF
