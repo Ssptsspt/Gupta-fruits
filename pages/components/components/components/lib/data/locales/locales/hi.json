@@ -1,0 +1,9 @@
+cat > locales/hi.json <<'EOF'
+{
+  "title": "गुप्ता फल और सब्ज़ियाँ",
+  "categories": { "fruits":"फल", "vegetables":"सब्ज़ियाँ", "seasonal":"मौसमी", "bulk":"थोक आदेश" },
+  "cart": "कार्ट",
+  "checkout": "चेकआउट",
+  "support": "सहायता"
+}
+EOF
